@@ -1,0 +1,2 @@
+nombre = str(input(" Escriba Su Nombre"))
+print(f" {nombre} Bienvenid@ al juego de laberintos")
