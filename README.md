@@ -1,14 +1,14 @@
 # -Videojuego-laberinto
 
-Este proyecto implementa un juego de laberinto en Python utilizando programación orientada a objetos. El juego permite al jugador moverse por un laberinto representado por un mapa y alcanzar la salida.
+   Este proyecto implementa un juego de laberinto en Python utilizando programación orientada a objetos. El juego permite al jugador moverse por un laberinto representado por un mapa y alcanzar la salida.
 
-## Funcionalidades
+   ## Funcionalidades
 
-- El jugador puede moverse hacia arriba (W), abajo (S) izquierda (A) o derecha (D) en el laberinto.
-- El juego termina cuando el jugador alcanza la salida del laberinto.
-- El juego utiliza archivos de texto para cargar laberintos aleatorios desde una carpeta.
+   - El jugador puede moverse hacia arriba (W), abajo (S) izquierda (A) o derecha (D) en el laberinto.
+   - El juego termina cuando el jugador alcanza la salida del laberinto.
+   - El juego utiliza archivos de texto para cargar laberintos aleatorios desde una carpeta.
 
-## Instrucciones de Ejecución del Laberinto
+   ## Instrucciones de Ejecución del Laberinto
 
 1. **Clonar el Repositorio:**
    Para comenzar, clona el repositorio en tu máquina local utilizando el siguiente comando:
