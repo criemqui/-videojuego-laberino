@@ -16,11 +16,8 @@ Este proyecto implementa un juego de laberinto en Python utilizando programació
    
 ```bash
 git clone https://github.com/tu_usuario/tu_repositorio.git
- ```bash  
-3. Asegúrate de tener Python instalado en tu sistema.
-4. Ejecuta el script `main.py` para comenzar el juego.
-5. Sigue las instrucciones en pantalla para mover al jugador por el laberinto.
-6. El objetivo es llegar a la salida del laberinto antes de que el jugador se quede sin movimientos.
+
+
 
 ## Estructura de Archivos
 
