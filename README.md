@@ -29,5 +29,5 @@ Este proyecto implementa un juego de laberinto en Python utilizando programació
    Una vez que las dependencias estén instaladas, ejecuta el script principal laberinto.py para iniciar el juego.
    Puedes hacerlo con el siguiente comando:
 
-   ```bash
-   python laberinto.py
+      ```bash
+      python laberinto.py
