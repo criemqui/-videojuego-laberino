@@ -27,25 +27,7 @@ git clone https://github.com/tu_usuario/tu_repositorio.git
 - `carpeta_de_mapas/`: Carpeta que contiene varios archivos de mapas para el juego.
 
 
-Aquí está el contenido de texto general.
+git clone https://github.com/tu_usuario/tu_repositorio.git
+cd tu_repositorio
+python main.py
 
-<details>
-<summary>Código de Ejemplo</summary>
-
-```python
-from juego import JuegoArchivo
-
-# Define las posiciones inicial y final del jugador
-posicion_inicial = (1, 1)
-posicion_final = (5, 6)
-
-# Crea una instancia del juego con un archivo de mapa aleatorio
-juego = JuegoArchivo("carpeta_de_mapas", posicion_inicial, posicion_final)
-
-# Imprime el mapa inicial
-juego.imprimir_mapa()
-
-# Itera hasta que el jugador llegue a la salida
-while juego.posicion_inicial != juego.posicion_final:
-    direccion = input("Introduce una dirección (arriba, abajo, izquierda, derecha): ")
-    juego.mover_jugador(direccion)
