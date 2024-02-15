@@ -1,4 +1,4 @@
-# -videojuego-laberino
+# -videojuego-laberinto
 
 # Laberinto
 
@@ -6,17 +6,19 @@ Este proyecto implementa un juego de laberinto en Python utilizando programació
 
 ## Funcionalidades
 
-- El jugador puede moverse hacia arriba, abajo, izquierda o derecha en el laberinto.
+- El jugador puede moverse hacia arriba (W), abajo (S) izquierda (A) o derecha (D) en el laberinto.
 - El juego termina cuando el jugador alcanza la salida del laberinto.
 - El juego utiliza archivos de texto para cargar laberintos aleatorios desde una carpeta.
 
 ## Instrucciones de Ejecución
 
 1. Clona este repositorio en tu máquina local.
-2. Asegúrate de tener Python instalado en tu sistema.
-3. Ejecuta el script `main.py` para comenzar el juego.
-4. Sigue las instrucciones en pantalla para mover al jugador por el laberinto.
-5. El objetivo es llegar a la salida del laberinto antes de que el jugador se quede sin movimientos.
+   git clone https://github.com/Abneriz/Proyecto1.git
+   
+3. Asegúrate de tener Python instalado en tu sistema.
+4. Ejecuta el script `main.py` para comenzar el juego.
+5. Sigue las instrucciones en pantalla para mover al jugador por el laberinto.
+6. El objetivo es llegar a la salida del laberinto antes de que el jugador se quede sin movimientos.
 
 ## Estructura de Archivos
 
