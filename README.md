@@ -1,7 +1,5 @@
 # -Videojuego-laberinto
 
-# Laberinto
-
 Este proyecto implementa un juego de laberinto en Python utilizando programación orientada a objetos. El juego permite al jugador moverse por un laberinto representado por un mapa y alcanzar la salida.
 
 ## Funcionalidades
