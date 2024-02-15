@@ -1,4 +1,4 @@
-# -videojuego-laberinto
+# -Videojuego-laberinto
 
 # Laberinto
 
@@ -25,8 +25,10 @@ Este proyecto implementa un juego de laberinto en Python utilizando programació
    ```bash
    pip install readchar
 
-
-## Estructura de Archivos
+ 3. **Ejecutar el Juego:**
+   Una vez que las dependencias estén instaladas, ejecuta el script principal laberinto.py para iniciar el juego. Puedes hacerlo con el siguiente comando:
+   
+   ## Estructura de Archivos
 
 - `main.py`: El punto de entrada del programa.
 - `juego.py`: Contiene la implementación de las clases `Juego` y `JuegoArchivo`.
