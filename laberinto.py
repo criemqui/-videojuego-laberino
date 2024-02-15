@@ -1,8 +1,10 @@
 import os
 import random
 import keyboard
+import readchar
 
-class JuegoLaberinto:
+
+class Juego:
     def __init__(self, carpeta_mapas, pos_inicial, pos_final):
         self.pos_inicial = pos_inicial
         self.pos_final = pos_final
@@ -10,16 +12,8 @@ class JuegoLaberinto:
         # Obtener la lista de archivos en la carpeta de mapas
         lista_archivos = os.listdir(carpeta_mapas)
 
-        # Filtrar la lista de archivos para incluir solo archivos de mapa válidos
-        archivos_mapa = [archivo for archivo in lista_archivos if archivo.endswith('.txt')]
-
-        # Verificar si hay archivos de mapa en la carpeta
-        if not archivos_mapa:
-            print("Error: No se encontraron archivos de mapa en la carpeta especificada.")
-            return
-
-        # Seleccionar aleatoriamente un archivo de la lista de archivos de mapa
-        archivo_mapa = random.choice(archivos_mapa)
+        # Seleccionar aleatoriamente un archivo de la lista
+        archivo_mapa = random.choice(lista_archivos)
 
         # Construir la ruta completa al archivo del mapa
         ruta_mapa = os.path.join(carpeta_mapas, archivo_mapa)
@@ -28,27 +22,19 @@ class JuegoLaberinto:
         with open(ruta_mapa, 'r') as file:
             self.mapa = [list(linea.strip()) for linea in file]
 
-
     def limpiar_y_mostrar_matriz(self, px, py):
         # Limpiar la pantalla
         os.system('cls' if os.name == 'nt' else 'clear')
-
-         # Verificar los límites del mapa y las coordenadas del jugador
-        print("Tamaño del mapa:", len(self.mapa), "x", len(self.mapa[0]))
-        print("Posición del jugador (x, y):", px, py)
 
         # Copiar el mapa para no modificar el original
         mapa_mostrar = [fila[:] for fila in self.mapa]
 
         # Colocar al jugador en el mapa
-        if 0 <= py < len(self.mapa) and 0 <= px < len(self.mapa[0]):
-            mapa_mostrar[py][px] = 'P'
-        else:
-         print("Error: Las coordenadas del jugador están fuera del rango del mapa.")
+        mapa_mostrar[py][px] = 'P'
 
         # Mostrar el mapa
         for fila in mapa_mostrar:
-            print(''.join(fila))
+            print(' '.join(fila))
 
     def main_loop(self):
         # Coordenadas iniciales del jugador
@@ -73,15 +59,16 @@ class JuegoLaberinto:
             movimiento = None
             while movimiento not in ['w', 'a', 's', 'd', 'q']:
                 try:
-                    if keyboard.is_pressed('w'):
+                    key = readchar.readkey()
+                    if key == 'w':
                         movimiento = 'w'
-                    elif keyboard.is_pressed('a'):
+                    elif key == 'a':
                         movimiento = 'a'
-                    elif keyboard.is_pressed('s'):
+                    elif key == 's':
                         movimiento = 's'
-                    elif keyboard.is_pressed('d'):
+                    elif key == 'd':
                         movimiento = 'd'
-                    elif keyboard.is_pressed('q'):
+                    elif key == 'q':
                         print("Has salido del juego.")
                         return
                 except:
@@ -103,7 +90,15 @@ class JuegoLaberinto:
                 self.limpiar_y_mostrar_matriz(px, py)
                 print("\n¡Felicidades, has terminado el laberinto!")
                 break
-
+class JuegoArchivo(Juego):
+    def __init__(self, carpeta_mapas, pos_inicial, pos_final):
+        self.carpeta_mapas = carpeta_mapas
+        lista_archivos = os.listdir(carpeta_mapas)
+        archivo_mapa = random.choice(lista_archivos)
+        ruta_mapa = os.path.join(carpeta_mapas, archivo_mapa)
+        with open(ruta_mapa, 'r') as file:
+            mapa = [linea.strip() for linea in file]
+            super().__init__(mapa, pos_inicial, pos_final)
 
 
 # Nuevo mapa proporcionado
@@ -130,8 +125,8 @@ laberinto = """..###################
 ###################.."""
 
 # Ruta de la carpeta que contiene los archivos de mapas
-carpeta_mapas = os.path.join(os.path.expanduser("~"), "Desktop", "carpeta_mapas")
-
+#carpeta_mapas = os.path.join(os.path.expanduser("~"), "Desktop", "carpeta_mapas")
+carpeta_mapas = 'carpeta_mapas'
 # Imprime la ruta de la carpeta de mapas
 print("Ruta de la carpeta de mapas:", carpeta_mapas)
 
@@ -140,7 +135,7 @@ pos_inicial = (1, 2)
 pos_final = (19, 20)
 
 # Crear una instancia del juego
-juego = JuegoLaberinto(carpeta_mapas, pos_inicial, pos_final)
+juego = Juego(carpeta_mapas, pos_inicial, pos_final)
 
 # Iniciar el bucle principal del juego
 juego.main_loop()
