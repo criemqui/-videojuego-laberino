@@ -10,6 +10,9 @@
    - **Generación De Laberintos:** El juego utiliza archivos de texto para cargar laberintos aleatorios desde una carpeta.
    - **Mensajes de Estado:** El juego proporciona mensajes de estado al jugador, como bienvenida, indicaciones para comenzar y felicitaciones al completar el laberinto.
 
+   
+     desde una posición inicial hasta una posición final ('F') evitando obstáculos ('#'). El jugador puede moverse al personaje utilizando las teclas de dirección.
+
    ## Instrucciones de Ejecución del Laberinto
 
 1. **Clonar el Repositorio:**
