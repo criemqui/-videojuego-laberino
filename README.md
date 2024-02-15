@@ -29,3 +29,8 @@
 
       ```bash
       python laberinto.py
+      
+   **Jugar:**
+      Sigue las instrucciones en pantalla para mover al personaje por el laberinto y completarlo.
+
+                        ¡Disfruta del juego del laberinto!
