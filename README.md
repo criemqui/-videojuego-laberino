@@ -18,7 +18,13 @@ Este proyecto implementa un juego de laberinto en Python utilizando programació
    ```bash
    git clone https://github.com/Abneriz/Proyecto1.git
 
-2.
+2. **Instalar Dependencias:**
+   Una vez que hayas clonado el repositorio, accede al directorio del proyecto y asegúrate de tener instaladas las dependencias requeridas.
+   Puedes instalarlas ejecutando el siguiente comando en la terminal:
+
+   ```bash
+   pip install readchar
+
 
 ## Estructura de Archivos
 
