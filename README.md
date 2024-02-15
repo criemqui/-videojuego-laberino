@@ -13,11 +13,13 @@ Este proyecto implementa un juego de laberinto en Python utilizando programació
 ## Instrucciones de Ejecución
 
 1. Clona este repositorio en tu máquina local.
-   
-```bash
 git clone https://github.com/tu_usuario/tu_repositorio.git
 
+1. **Clonar el Repositorio:**
+   Clona el repositorio en tu máquina local.
 
+   ```bash
+   git clone https://github.com/Abneriz/Proyecto1.git
 
 ## Estructura de Archivos
 
@@ -25,9 +27,3 @@ git clone https://github.com/tu_usuario/tu_repositorio.git
 - `juego.py`: Contiene la implementación de las clases `Juego` y `JuegoArchivo`.
 - `mapa.txt`: Un ejemplo de archivo de mapa utilizado en el juego.
 - `carpeta_de_mapas/`: Carpeta que contiene varios archivos de mapas para el juego.
-
-
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
-python main.py
-
