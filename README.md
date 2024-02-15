@@ -31,11 +31,3 @@ Este proyecto implementa un juego de laberinto en Python utilizando programació
 
    ```bash
    python laberinto.py
-
-   
-   ## Estructura de Archivos
-
-- `main.py`: El punto de entrada del programa.
-- `juego.py`: Contiene la implementación de las clases `Juego` y `JuegoArchivo`.
-- `mapa.txt`: Un ejemplo de archivo de mapa utilizado en el juego.
-- `carpeta_de_mapas/`: Carpeta que contiene varios archivos de mapas para el juego.
