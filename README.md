@@ -16,7 +16,7 @@ Este proyecto implementa un juego de laberinto en Python utilizando programació
    Para comenzar, clona el repositorio en tu máquina local utilizando el siguiente comando:
 
    ```bash
-   git clone https://github.com/Abneriz/Proyecto1.git
+   git clone https://github.com/criemqui/-videojuego-laberino.git
 
 2. **Instalar Dependencias:**
    Una vez que hayas clonado el repositorio, accede al directorio del proyecto y asegúrate de tener instaladas las dependencias requeridas.
@@ -26,7 +26,12 @@ Este proyecto implementa un juego de laberinto en Python utilizando programació
    pip install readchar
 
  3. **Ejecutar el Juego:**
-   Una vez que las dependencias estén instaladas, ejecuta el script principal laberinto.py para iniciar el juego. Puedes hacerlo con el siguiente comando:
+   Una vez que las dependencias estén instaladas, ejecuta el script principal laberinto.py para iniciar el juego.
+   Puedes hacerlo con el siguiente comando:
+
+   ```bash
+   python laberinto.py
+
    
    ## Estructura de Archivos
 
