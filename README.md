@@ -7,6 +7,7 @@
    - El jugador puede moverse hacia arriba (W), abajo (S) izquierda (A) o derecha (D) en el laberinto.
    - El juego termina cuando el jugador alcanza la salida del laberinto.
    - El juego utiliza archivos de texto para cargar laberintos aleatorios desde una carpeta.
+   - Mensajes de Estado: El juego proporciona mensajes de estado al jugador, como bienvenida, indicaciones para comenzar y felicitaciones al completar el laberinto.
 
    ## Instrucciones de Ejecución del Laberinto
 
