@@ -10,16 +10,15 @@ Este proyecto implementa un juego de laberinto en Python utilizando programació
 - El juego termina cuando el jugador alcanza la salida del laberinto.
 - El juego utiliza archivos de texto para cargar laberintos aleatorios desde una carpeta.
 
-## Instrucciones de Ejecución
-
-1. Clona este repositorio en tu máquina local.
-git clone https://github.com/tu_usuario/tu_repositorio.git
+## Instrucciones de Ejecución del Laberinto
 
 1. **Clonar el Repositorio:**
-   Clona el repositorio en tu máquina local.
+   Para comenzar, clona el repositorio en tu máquina local utilizando el siguiente comando:
 
    ```bash
    git clone https://github.com/Abneriz/Proyecto1.git
+
+2.
 
 ## Estructura de Archivos
 
