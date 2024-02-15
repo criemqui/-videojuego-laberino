@@ -13,7 +13,9 @@ Este proyecto implementa un juego de laberinto en Python utilizando programació
 ## Instrucciones de Ejecución
 
 1. Clona este repositorio en tu máquina local.
-   git clone https://github.com/Abneriz/Proyecto1.git
+   
+```bash
+git clone https://github.com/tu_usuario/tu_repositorio.git
    
 3. Asegúrate de tener Python instalado en tu sistema.
 4. Ejecuta el script `main.py` para comenzar el juego.
