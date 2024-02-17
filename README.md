@@ -45,7 +45,7 @@
    - **carpeta_mapas/:** Carpeta que contiene archivos de mapas de laberintos.
    - **README.md:** Este archivo que proporciona información sobre el juego y cómo usarlo.
       
-   4. **Jugar:**
+   ## Jugar ##
    
    Sigue las instrucciones en pantalla para mover el personaje por el laberinto y completarlo.
    
