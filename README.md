@@ -41,12 +41,12 @@
    ## Estructura del Proyecto ##
    El proyecto está organizado de la siguiente manera:
 
-   **laberinto.py:** Contiene el código principal del juego.
-   **carpeta_mapas/:** Carpeta que contiene archivos de mapas de laberintos.
-   **README.md:** Este archivo que proporciona información sobre el juego y cómo usarlo.
+   -**laberinto.py:** Contiene el código principal del juego.
+   -**carpeta_mapas/:** Carpeta que contiene archivos de mapas de laberintos.
+   -**README.md:** Este archivo que proporciona información sobre el juego y cómo usarlo.
       
    4. **Jugar:**
       
-      Sigue las instrucciones en pantalla para mover al personaje por el laberinto y completarlo.
+    Sigue las instrucciones en pantalla para mover al personaje por el laberinto y completarlo.
       
 Disfruta del juego del laberinto
