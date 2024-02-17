@@ -32,6 +32,11 @@
 
       ```bash
       python laberinto.py
+
+   ## Requisitos ##
+   - Pitón 3.x
+   - Libreríareadchar
+   - Sistema Operativo: Windows o Unix (Linux/macOS)
       
    4. **Jugar:**
       Sigue las instrucciones en pantalla para mover al personaje por el laberinto y completarlo.
