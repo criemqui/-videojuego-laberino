@@ -48,6 +48,11 @@
    ## Jugar ##
    
    Sigue las instrucciones en pantalla para mover el personaje por el laberinto y completarlo.
+
+   ## Notas adicionales ##
+   
+   Asegúrese de tener los permisos necesarios para ejecutar scripts en su sistema operativo.
+   Puedes agregar tus propios mapas de laberinto en la carpeta carpeta_mapas/siguiendo el formato especificado en el código.
    
       
 Disfruta del juego del laberinto 🎮🔍.
