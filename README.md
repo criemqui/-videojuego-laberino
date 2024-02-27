@@ -1,4 +1,4 @@
-# -Videojuego-laberinto
+# -Videojuego-laberinto 👩🏽‍💻
 
    Este proyecto implementa un juego de laberinto en Python utilizando programación orientada a objetos. El juego permite al jugador moverse por un laberinto (representado por la letra P), 
    desde una posición inicial hasta una posición final ('F') evitando obstáculos ('#'). 
